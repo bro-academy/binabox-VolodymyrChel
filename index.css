@@ -1,0 +1,284 @@
+body{
+    background-color: black;
+}
+nav li a {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color: white;
+}
+div a {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    background-color: blue;
+    color: white;
+}
+section h1{
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+    color: white;
+}
+p{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+    } 
+dl dd{
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+    vertical-align: bottom;
+    color: white;
+}
+dl dt{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: bottom;
+    color: white;
+}
+main
+ section
+  h2{
+font-family: 'bakbak one';
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0px;
+color: white;
+}
+a{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: white;
+}
+a article p{
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: white;
+}
+a article h3{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+}
+section h2{
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: white;
+}
+article time{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: white;
+}
+article h3{
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: white;
+}
+article p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: white;
+}
+article a{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: white;
+}
+section h2{
+font-family: 'bakbak one';
+font-weight: 400;
+font-style: normal;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.5px;
+color: white;
+}
+section p{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+}
+li h3{
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: white;
+}
+li p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+}
+button{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: white;
+    background-color: transparent;
+}
+section h2{
+font-family: 'bakbak one';
+font-weight: 400;
+font-style: normal;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.5px;
+color: white;
+}
+article h3{
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: white;
+}
+article p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+}
+section h2{
+font-family: 'bakbak one';
+font-weight: 400;
+font-style: normal;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.5px;
+color: white;
+}
+summary h3{
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: white;
+}
+details p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: white;
+}
+footer section p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: white;
+}
+nav section h3{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+}
+section li a{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: white;
+}
+p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: white;
+}
