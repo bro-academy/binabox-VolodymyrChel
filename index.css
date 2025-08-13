@@ -1,15 +1,17 @@
-body{
-    background-color: black;
+body {
+    background-color: #0d0d15;
+    color: white;
 }
+
 nav li a {
     font-family: 'poppins';
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0;
-    vertical-align: middle;
     color: white;
 }
+
 div a {
     font-family: 'poppins';
     font-weight: 600;
@@ -17,70 +19,69 @@ div a {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
-    vertical-align: middle;
-    background-color: blue;
+    background-color: #0265dc;
     color: white;
 }
-section h1{
+
+section h1 {
     font-family: 'bakbak one';
     font-weight: 400;
     font-style: normal;
     font-size: 52px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    color: white;
 }
-p{
+
+p {
     font-family: 'poppins';
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0px;
-    color: white;
-    } 
-dl dd{
+
+}
+
+dl dd {
     font-family: 'bakbak one';
     font-weight: 400;
     font-style: normal;
     font-size: 52px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    vertical-align: bottom;
     color: white;
 }
-dl dt{
+
+dl dt {
     font-family: 'poppins';
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0px;
-    vertical-align: bottom;
     color: white;
 }
-main
- section
-  h2{
-font-family: 'bakbak one';
-font-weight: 400;
-font-style: normal;
-font-size: 24px;
-line-height: 32px;
-letter-spacing: 0px;
-color: white;
+
+main section h2 {
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
 }
-a{
+
+a {
     font-family: 'poppins';
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
-    vertical-align: middle;
     color: white;
 }
-a article p{
+
+a article p {
     font-family: 'bakbak one';
     font-weight: 400;
     font-style: normal;
@@ -89,25 +90,26 @@ a article p{
     letter-spacing: -0.5px;
     color: white;
 }
-a article h3{
+
+a article h3 {
     font-family: 'poppins';
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0px;
-    color: white;
 }
-section h2{
+
+section h2 {
     font-family: 'bakbak one';
     font-weight: 400;
     font-style: normal;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -0.5px;
-    color: white;
 }
-article time{
+
+article time {
     font-family: 'poppins';
     font-weight: 600;
     font-style: normal;
@@ -116,25 +118,26 @@ article time{
     letter-spacing: 0px;
     color: white;
 }
-article h3{
+
+article h3 {
     font-family: 'bakbak one';
     font-weight: 400;
     font-style: normal;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -0.5px;
-    color: white;
 }
-article p{
+
+article p {
     font-family: 'poppins';
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0px;
-    color: white;
 }
-article a{
+
+article a {
     font-family: 'poppins';
     font-weight: 600;
     font-style: normal;
@@ -144,25 +147,26 @@ article a{
     vertical-align: middle;
     color: white;
 }
-section h2{
-font-family: 'bakbak one';
-font-weight: 400;
-font-style: normal;
-font-size: 36px;
-line-height: 48px;
-letter-spacing: -0.5px;
-color: white;
+
+section h2 {
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
 }
-section p{
+
+section p {
     font-family: 'poppins';
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0px;
-    color: white;
 }
-li h3{
+
+li h3 {
     font-family: 'bakbak one';
     font-weight: 400;
     font-style: normal;
@@ -171,7 +175,8 @@ li h3{
     letter-spacing: 0px;
     color: white;
 }
-li p{
+
+li p {
     font-family: 'poppins';
     font-weight: 400;
     font-style: normal;
@@ -180,100 +185,101 @@ li p{
     letter-spacing: 0px;
     color: white;
 }
-button{
+
+button {
     font-family: 'poppins';
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
-    vertical-align: middle;
     color: white;
     background-color: transparent;
 }
-section h2{
-font-family: 'bakbak one';
-font-weight: 400;
-font-style: normal;
-font-size: 36px;
-line-height: 48px;
-letter-spacing: -0.5px;
-color: white;
+
+section h2 {
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
 }
-article h3{
+
+article h3 {
     font-family: 'bakbak one';
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0px;
-    color: white;
 }
-article p{
+
+article p {
     font-family: 'poppins';
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
-    color: white;
 }
-section h2{
-font-family: 'bakbak one';
-font-weight: 400;
-font-style: normal;
-font-size: 36px;
-line-height: 48px;
-letter-spacing: -0.5px;
-color: white;
+
+section h2 {
+    font-family: 'bakbak one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
 }
-summary h3{
+
+summary h3 {
     font-family: 'bakbak one';
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0px;
-    color: white;
 }
-details p{
+
+details p {
     font-family: 'poppins';
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0px;
-    color: white;
 }
-footer section p{
+
+footer section p {
     font-family: 'poppins';
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0px;
-    color: white;
 }
-nav section h3{
+
+nav section h3 {
     font-family: 'poppins';
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0px;
-    color: white;
 }
-section li a{
+
+section li a {
     font-family: 'poppins';
     font-weight: 600;
     font-style: normal;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0px;
-    vertical-align: middle;
     color: white;
 }
-p{
+
+p {
     font-family: 'poppins';
     font-weight: 400;
     font-style: normal;
