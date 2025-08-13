@@ -1,263 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Binabox</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins&display=swap" rel="stylesheet">
-        </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binabox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">Binabox</a>
         <nav>
-         <a href="#">Binabox</a>
-         <ul> <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Collection</a>
-        <a href="#">Fags</a>
-        <a href="#">Pages</a></ul>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Collection</a></li>
+                <li> <a href="#">Fags</a></li>
+                <li><a href="#">Pages</a></li>
+            </ul>
         </nav>
-            <div>
-                <input type="checkbox">
-                <a href="/home">Discord</a>
-                <a href="/home">Connect</a>
-            </div>
-         <header>
-             <section>
-                 <h1>WITH BINABOX EXPLORE NFT COLLECTION</h1>
-                 <p>We are the best way to check the rarity of NFT collection</p>
+        <div>
+            <input type="checkbox">
+            <a href="/home">Discord</a>
+            <a href="/home">Connect</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>WITH BINABOX EXPLORE NFT COLLECTION</h1>
+            <p>We are the best way to check the rarity of NFT collection</p>
             <dl>
                 <dt>Total Iteam</dt>
                 <dd>2200+</dd>
                 <dt>Profiles whitelisted</dt>
                 <dd>1000+</dd>
             </dl>
-             <div>
+            <div>
                 <a href="home">Connect walet</a>
                 <a href="home">Whitelist now</a>
             </diV>
         </section>
-  </header>
-<main>
-    <section>
-        <h2>Cataloge</h2>
-       <a href="#">See all</a>
-       <a href="#"><article>
-                <img src="m.png" alt="Echo of Bones">
-            <p>$1990</p>
-            <h3>Echo of Bones</h3>
-        </article></a>
-        <a href="#"> <article>
-                <img src="n.png" alt="Nyx the Watcher">
-            <p>$299.99</p>
-            <h3>Nyx the Watcher</h3>
-        </article></a>
-       <a href="#"><article>
-    <img src="b.png" alt="Blade of Silence">
-             <p>$20</p>
-             <h3>Blade of Silence</h3>
-        </article></a>
-        <a href="#"> <article>
-                <img src="d.png" alt="Data Core: Alpha">
-            <p>$1.000.000</p>
-            <h3>Data Core: Alpha</h3>
-        </article></a>
-       <a href="#"> <article>
-                <img src="p.png" alt="Phantom Console">
-            <p>$199.5</p>
-            <h3>Phantom Console</h3>
-        </article></a>
-    </section>
-    <section>
-        <h2>Our blog</h2>
-        <article>
+        <section class="cataloge-section">
+            <h2 class="cataloge-section__titel">Cataloge</h2>
+            <a href="#" class="cataloge-section__link">See all</a>
+            <a href="#">
+                <article class="cataloge-item">
+                    <img class="cataloge-item__img" src="m.png" alt="Echo of Bones">
+                    <p class="cataloge-item__price">$1990</p>
+                    <h3 class="cataloge-item__header">Echo of Bones</h3>
+                </article>
+            </a>
+            <a href="#">
+                <article>
+                    <img src="n.png" alt="Nyx the Watcher">
+                    <p>$299.99</p>
+                    <h3>Nyx the Watcher</h3>
+                </article>
+            </a>
+            <a href="#">
+                <article>
+                    <img src="b.png" alt="Blade of Silence">
+                    <p>$20</p>
+                    <h3>Blade of Silence</h3>
+                </article>
+            </a>
+            <a href="#">
+                <article>
+                    <img src="d.png" alt="Data Core: Alpha">
+                    <p>$1.000.000</p>
+                    <h3>Data Core: Alpha</h3>
+                </article>
+            </a>
+            <a href="#">
+                <article>
+                    <img src="p.png" alt="Phantom Console">
+                    <p>$199.5</p>
+                    <h3>Phantom Console</h3>
+                </article>
+            </a>
+        </section>
+        <section class="blog-section">
+            <h2 class="blog-section__titel">Our blog</h2>
+            <article class="blog-card">
                 <img src="nn.png" alt="NFT">
-                 <time datetime="2022-12-04">04. Dec 2022</time>
-            <h3>Neural Drift</h3>
-            <p>I woke up inside the void. My body stayed in the past - only thoughts were allowed throug...</p>
-            <a href="#">Read more</a>
-        </article>
-        <article>
+                <time datetime="2022-12-04">04. Dec 2022</time>
+                <h3 class="blog-card__autor">Neural Drift</h3>
+                <p class="blog-card__description">I woke up inside the void. My body stayed in the past - only thoughts
+                    were allowed throug...</p>
+                <a class="blog-card__buttom" href="#">Read more</a>
+            </article>
+            <article>
                 <img src="pp.png" alt="RARE">
                 <time datetime="2022-12-08">08. Dec 2022</time>
-            <h3>Primal.exe</h3>
-            <p>We tried to resurrect the past. What we got was rage compressed into an algorithm.</p>
-            <a href="#">Read more</a>
-        </article>
-        <article>
+                <h3>Primal.exe</h3>
+                <p>We tried to resurrect the past. What we got was rage compressed into an algorithm.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
                 <img src="w.png" alt="NFT">
                 <time datetime="2022-06-20">20. Jun 2022</time>
-            <h3>White Protocol</h3>
-            <p>At first, it was just a signal - clean, white, hypnotic. We didn't know it was alive.</p>
-            <a href="#">Read more</a>
-        </article>
-        <article>
+                <h3>White Protocol</h3>
+                <p>At first, it was just a signal - clean, white, hypnotic. We didn't know it was alive.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
                 <img src="dd.png" alt="DROP">
                 <time datetime="2022-12-06">06. Dec 2022</time>
-            <h3>Deadframe</h3>
-            <p>He just stood there, waiting. Not for a person - for a signal. Like the memory of the networku</p>
-            <a href="#">Read more</a>
-        </article>
-        <article>
+                <h3>Deadframe</h3>
+                <p>He just stood there, waiting. Not for a person - for a signal. Like the memory of the networku</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
                 <img src="g.png" alt="NFT">
                 <time datetime="2022-12-07">07. Dec 2022</time>
-            <h3>Glitch Panther</h3>
-            <p>Cats always knew more than they showed. Especially the ones that vanish into code.</p>
-            <a href="#">Read more</a>
-        </article>
-        <article>
-            <img src="r.png" alt="ARTIFACT">
+                <h3>Glitch Panther</h3>
+                <p>Cats always knew more than they showed. Especially the ones that vanish into code.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <img src="r.png" alt="ARTIFACT">
                 <time datetime="2022-12-09">09. Dec 2022</time>
-            <h3>Retrocore</h3>
-            <p>This console comes from a game no one remembers how to play. But it's still powered on.</p>
+                <h3>Retrocore</h3>
+                <p>This console comes from a game no one remembers how to play. But it's still powered on.</p>
+                <a href="#">Read more</a>
+            </article>
             <a href="#">Read more</a>
-        </article>
-        <a href="#">Read more</a>
-    </section>
-    <section>
-        <h2>About us</h2>
-        <p>We craft digital artifacts for those who live between worlds.
-Our space is bulit for creators, collectors, and the quietly obsessed.</p>
-<ul>
-    <li>
-       <h3>Crystal clear Quality</h3> <p>Every NFT we drop is razor-sharp, high-res, and glitch-free. Art that hits hard and stays clean.</p>
-    </li>
-    <li>
-        <h3>Curated Depth</h3> <p>Not just big - meaningful.
-Each piece tells a story, every collection builds a universe.</p>
-    </li>
-    <li>
-        <h3>Rare Source Access</h3> <p>Early drops. Backstage peeks.
-Our members don't scroll - they unlock.</p>
-    </li>
-    <li>
-        <h3>Living Network</h3> <p>Our community isn't a list -it's a force.
-Artists, rebels, dreamers.</p>
-    </li>
-</ul>
-<button>Read more</button>
-    </section>
-    <section>
-        <h2>Our team</h2>
-        <article>
+        </section>
+        <section>
+            <h2>About us</h2>
+            <p>We craft digital artifacts for those who live between worlds.
+                Our space is bulit for creators, collectors, and the quietly obsessed.</p>
+            <ol>
+                <li>
+                    <h3>Crystal clear Quality</h3>
+                    <p>Every NFT we drop is razor-sharp, high-res, and glitch-free. Art that hits hard and stays clean.
+                    </p>
+                </li>
+                <li>
+                    <h3>Curated Depth</h3>
+                    <p>Not just big - meaningful.
+                        Each piece tells a story, every collection builds a universe.</p>
+                </li>
+                <li>
+                    <h3>Rare Source Access</h3>
+                    <p>Early drops. Backstage peeks.
+                        Our members don't scroll - they unlock.</p>
+                </li>
+                <li>
+                    <h3>Living Network</h3>
+                    <p>Our community isn't a list -it's a force.
+                        Artists, rebels, dreamers.</p>
+                </li>
+            </ol>
+            <button>Read more</button>
+        </section>
+        <section>
+            <h2>Our team</h2>
+            <article>
                 <img src="k.png" alt="Nova Riven">
-            <h3>Nova Riven</h3> <p>Creative Architect</p>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">in</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </article>
+                <h3>Nova Riven</h3>
+                <p>Creative Architect</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">in</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </article>
             <article>
                 <img src="k.png" alt="Echo Zero">
-            <h3>Echo Zero</h3> <p>Tech Whisperer</p>
-            <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">in</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </article>
-        <article>
+                <h3>Echo Zero</h3>
+                <p>Tech Whisperer</p>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">in</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+            <article>
                 <img src="k.png" alt="Kairo Null">
-            <h3>Kairo Null</h3> <p>Lore Engineer</p>
-            <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">in</a></li>
-            </ul>
-        </article>
-        <article>
+                <h3>Kairo Null</h3>
+                <p>Lore Engineer</p>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">in</a></li>
+                </ul>
+            </article>
+            <article>
                 <img src="k.png" alt="Dr. Wex Omega">
-            <h3>Dr. Wex Omega</h3> <p>Visual Disruptor</p>
-            <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">in</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </article>
-         <article>
+                <h3>Dr. Wex Omega</h3>
+                <p>Visual Disruptor</p>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">in</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+            <article>
                 <img src="k.png" alt="Synthya Void">
-            <h3>Synthya Void</h3> <p>UX Seer</p>
-            <ul>
-                <li><a href="#">Twitter</a></li>
-            </ul>
-        </article>
-        <article>
+                <h3>Synthya Void</h3>
+                <p>UX Seer</p>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </article>
+            <article>
                 <img src="k.png" alt="Mirlo Drift">
-            <h3>Mirlo Drift</h3> <p>Community Catalyst</p>
-            <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">in</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </article>
-          <article>
+                <h3>Mirlo Drift</h3>
+                <p>Community Catalyst</p>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">in</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+            <article>
                 <img src="k.png" alt="Axon Rune">
-            <h3>Axon Rune</h3> <p>Security Ghost</p>
-            <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">in</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </article>
-    </section>
-    <section>
-        <h2>FAQs</h2>
-       <div>
-        <details>
-            <summary><h3>What are the NFTs?</h3></summary><p>NFTs (non-fungible tokens) are unique digital objects stored on the blockchain. They can be art, music, code, memes, memories - anything that can be owned and vertfied.
-No coples. No takes, Just you and the chain.</p></details>
-    <details><summary><h3>How do i get NFTs?</h3></summary></details>
-    <details><summary><h3>How can we buy your NFTS?</h3></summary></details>
-    <details><summary><h3>Who are the team behind the project?</h3></summary></details>
-       </div>
-    </section>
-</main>
-<footer>
-    <section>
-        <h2>
-         About Us   
-        </h2>
- <a href="#">Binabox</a>
-    <p>We are the best way to check the rarity of NFT collection.</p>
-    </section>
-<nav>
-    <section>
-   <h3>Navigation</h3>  
-       <ul>
-  <li><a href="#">Home</a> </li>
-  <li><a href="#">Blog</a></li>
-  <li><a href="#">Catalog</a></li>
-  <li><a href="#">Contact Us</a></li>
-  <li><a href="#">Terms Conditions</a></li>
-  <li><a href="#">Privacy Policy</a></li>
-  <li><a href="#">Whitepaper</a></li>
-  <li><a href="#">Help Center</a></li>
-       </ul>
-    </section>
-    </nav>
-     <p>BINABOX 2022 - ALL rights reserved</p>
-    <section>
-        <h3>
-            Social Networks
-        </h3>
-          <a href="#">Twitter</a>
-        <a href="#">Facebook</a>
-        <a href="#">Telegram</a>
-        <a href="#">YouTube</a>
-        <a href="#">TikTok</a>
-        <a href="#">Discord</a>
-     </section> 
-</footer>
+                <h3>Axon Rune</h3>
+                <p>Security Ghost</p>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">in</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <h2>FAQs</h2>
+            <div>
+                <details>
+                    <summary>
+                        <h3>What are the NFTs?</h3>
+                    </summary>
+                    <p>NFTs (non-fungible tokens) are unique digital objects stored on the blockchain. They can be art,
+                        music, code, memes, memories - anything that can be owned and vertfied.
+                        No coples. No takes, Just you and the chain.</p>
+                </details>
+                <details>
+                    <summary>
+                        <h3>How do i get NFTs?</h3>
+                    </summary>
+                </details>
+                <details>
+                    <summary>
+                        <h3>How can we buy your NFTS?</h3>
+                    </summary>
+                </details>
+                <details>
+                    <summary>
+                        <h3>Who are the team behind the project?</h3>
+                    </summary>
+                </details>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h2>
+                About Us
+            </h2>
+            <a href="#">Binabox</a>
+            <p>We are the best way to check the rarity of NFT collection.</p>
+        </section>
+        <nav>
+            <section>
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Whitepaper</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </section>
+        </nav>
+        <p>BINABOX 2022 - ALL rights reserved</p>
+        <section>
+            <h3>
+                Social Networks
+            </h3>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Telegram</a>
+            <a href="#">YouTube</a>
+            <a href="#">TikTok</a>
+            <a href="#">Discord</a>
+        </section>
+    </footer>
 </body>
+
 </html>
